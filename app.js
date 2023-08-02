@@ -49,7 +49,7 @@ function flashAll(score){
             btn.classList.remove("btn-flash"); //remove flash CSS property
         }
         clearInterval(id); //used to stop flashing
-        levelIndicator.innerHTML = `Game Over! High Score: ${score}<br>Press Start button`; // Game Over Indiacator
+        levelIndicator.innerHTML = `Game Over! High Score: ${score}<br>Press Play button`; // Game Over Indiacator
 
         //current session Highest Score
         if(score > largestScore){
